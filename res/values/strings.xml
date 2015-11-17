@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Organizer</string>
+    <string name="action_settings">Настройки</string>
+    <string name="main_header">Органайзер</string>
+    <string name="tasks">Задачи</string>
+    <string name="important">Важная</string>
+    <string name="usual">Обычная</string>
+    <string name="pushover">Несрочная</string>
+    <string name="notes">Заметки</string>
+    <string name="calendar">Календарь</string>
+    <string name="settings">Настройки</string>
+	<string name="choosedate">Выбор даты</string>
+	<string name="choosetime">Выбор времени</string>
+	<string name="all">Все</string>
+	<string name="date">Дата</string>
+	<string name="time">Время</string>
+	<string name="task">Задача</string>
+	<string name="category">Категория</string>
+	<string name="execute">Выполнена</string>
+	<string name="hintEditTask">Текст задачи</string>
+	<string name="saveBtn">Сохранить</string>
+	<string name="addTask">Добавить задачу</string>
+	<string name="addNote">Добавить</string>
+	
+</resources>

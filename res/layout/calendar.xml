@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <CalendarView
+        android:id="@+id/calendarView1"
+        android:layout_width="251dp"
+        android:layout_height="279dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/dangerCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/danger"
+        android:drawablePadding="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/warningCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/warning"
+        android:drawablePadding="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/usualCalendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/usual"
+        android:drawablePadding="15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

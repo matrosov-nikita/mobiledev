@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" >
+
+        <Button
+            android:id="@+id/datePicker"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:drawableRight="@drawable/calendar_icon"
+            android:text="@string/choosedate" />
+
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/addButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/add" />
+
+    </TableRow>
+<TabHost
+ android:id="@android:id/tabhost"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent">
+<LinearLayout
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:orientation="vertical">
+<TabWidget
+ android:id="@android:id/tabs"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content">
+</TabWidget>
+<FrameLayout
+ android:id="@android:id/tabcontent"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent">
+ 
+    
+    <ScrollView
+        android:id="@+id/tvTab1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </TableLayout>
+    </ScrollView>
+    
+        <ScrollView
+        android:id="@+id/tvTab2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </TableLayout>
+    </ScrollView>
+    
+            <ScrollView
+        android:id="@+id/tvTab3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableLayout
+            android:id="@+id/tableLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </TableLayout>
+    </ScrollView>
+    
+                <ScrollView
+        android:id="@+id/tvTab4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TableLayout
+            android:id="@+id/tableLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </TableLayout>
+    </ScrollView>
+
+</FrameLayout>
+</LinearLayout>
+</TabHost>
+
+
+   
+
+</TableLayout>
